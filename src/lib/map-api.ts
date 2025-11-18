@@ -1,7 +1,7 @@
 import { Get } from "@/lib/api"
 
 // Map API has different base URL than user API
-const MAP_API_BASE = "https://bhuvanpaudel.com.np/haripur/api/v1/map"
+const MAP_API_BASE = "http://haripurcms.tachyonwave.com.np/haripur/api/v1/map" 
 
 // Type definitions for API responses
 export interface ApiLayer {
@@ -36,7 +36,7 @@ export class MapAPI {
     for (let i = 0; i < retries; i++) {
       try {
         // Create full URL by replacing the base URL
-        const fullUrl = endpoint.replace("https://bhuvanpaudel.com.np/haripur/api/v1/user", MAP_API_BASE)
+        const fullUrl = endpoint.replace("https://haripurcms.tachyonwave.com.np/haripur/api/v1/user", MAP_API_BASE)
         const relativeUrl = fullUrl.replace(MAP_API_BASE, "")
 
         console.log(`Making request to: ${MAP_API_BASE}${relativeUrl}`)

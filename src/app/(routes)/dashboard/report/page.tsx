@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <section className="flex min-h-[60vh] items-center justify-center bg-gray-50 px-4">
       <Card
-        bordered
+        variant="outlined"
         className="w-full max-w-md rounded-md shadow-lg"
         title={
           <div className="flex items-center gap-2 text-lg font-semibold">

@@ -2,7 +2,7 @@ import axios, { type AxiosResponse } from "axios"
 import { getApiHeaders } from "@/lib/api-headers"
 
 // Map API has different base URL
-const MAP_API_BASE_URL = "https://bhuvanpaudel.com.np/haripur/api/v1/map"
+const MAP_API_BASE_URL = "https://haripurcms.tachyonwave.com.np/haripur/api/v1/map"
 
 // Type definitions for API responses
 export interface ApiLayer {

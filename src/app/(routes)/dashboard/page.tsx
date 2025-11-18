@@ -68,9 +68,9 @@ export default async function DashboardPage() {
   const totalFemale = reportsData?.metadata.total_female || 0;
   const totalWards = reportsData?.metadata.wards_included.length || 0;
   const graduateCount =
-    reportsData?.metadata.totals.demographics.education.bachelor_plus || 0;
+    reportsData?.metadata?.totals?.demographics.education?.bachelor_plus || 0;
   const foreignEmployed =
-    reportsData?.metadata.totals.demographics.employment.foreign_employed || 0;
+    reportsData?.metadata?.totals?.demographics?.employment?.foreign_employed || 0;
 
   const stats = [
     {
@@ -118,11 +118,11 @@ export default async function DashboardPage() {
   // Get top 3 wards by population
   const topWards =
     reportsData?.ward_wise_data
-      .sort(
+      ?.sort(
         (a, b) =>
           b.demographics.population.total - a.demographics.population.total
       )
-      .slice(0, 3) || [];
+      ?.slice(0, 3) || [];
 
   return (
     <div className="space-y-6">
