@@ -115,7 +115,7 @@ export default async function DashboardPage() {
     },
   ];
 
-  // Get top 3 wards by population
+  // Get the top 3 wards by population
   const topWards =
     reportsData?.ward_wise_data
       ?.sort(
