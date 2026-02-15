@@ -1,7 +1,8 @@
 import axios, { type AxiosResponse, type AxiosRequestConfig } from "axios";
 
 // const Base_Url = "https://bhuvanpaudel.com.np/haripur/api/v1"; // Set your base URL here
-const Base_Url = "https://haripurcms.tachyonwave.com.np/haripur/api/v1"; // Set your base URL here
+// const Base_Url = "https://haripurcms.tachyonwave.com.np/haripur/api/v1"; // Set your base URL here
+const Base_Url = "Kasam ! backend ko domain change bhako xa hai. This is new one : http://api.bhuvanpaudel.com.np/"; // Set your base URL here
 
 import { getApiHeaders } from "@/lib/api-headers";
 
