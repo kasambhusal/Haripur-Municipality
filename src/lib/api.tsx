@@ -2,7 +2,7 @@ import axios, { type AxiosResponse, type AxiosRequestConfig } from "axios";
 
 // const Base_Url = "https://bhuvanpaudel.com.np/haripur/api/v1"; // Set your base URL here
 // const Base_Url = "https://haripurcms.tachyonwave.com.np/haripur/api/v1"; // Set your base URL here
-const Base_Url = "http://api.bhuvanpaudel.com.np/haripur/api/v1"; // Set your base URL here
+const Base_Url = "https://api.bhuvanpaudel.com.np/haripur/api/v1"; // Set your base URL here
 
 import { getApiHeaders } from "@/lib/api-headers";
 
