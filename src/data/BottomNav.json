@@ -1,0 +1,28 @@
+{
+    "navData":[
+         {
+      "type": "link",
+      "label": "गृहपृष्ठ",
+      "href": "/"
+    },
+         {
+      "type": "link",
+      "label": "नक्सा",
+      "href": "/map"
+    },
+         {
+      "type": "link",
+      "label": "संघ संस्था",
+      "href": "/organizations"
+    },
+         {
+      "type": "link",
+      "label": "योजना",
+      "href": "/plans"
+    },
+         {
+      "type": "link",
+      "label": "सम्पर्क",
+      "href": "/contact"
+    }    ]
+}

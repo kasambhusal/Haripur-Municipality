@@ -1,0 +1,31 @@
+.button {
+  display: inline-block;
+  width: auto;
+  vertical-align: top;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: normal;
+  line-height: 1em;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #002c58;
+  /* padding: 9px var(--grt-spacing-4); */
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.small {
+  font-size: 18px;
+  padding: 12px 19.416px;
+}
+
+.medium {
+  font-size: 18px;
+  padding: 12px 22px;
+}
+
+.large {
+  font-size: 20px;
+  padding: 14px 28px;
+}
