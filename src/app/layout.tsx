@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "हरिपुर डिजिटल प्रोफाइल",
-  description: "A website for badimalika municipality",
+  description: "A digital profile for Haripur municipality",
 };
 
 export default function RootLayout({
