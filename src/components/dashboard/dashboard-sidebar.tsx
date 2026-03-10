@@ -29,7 +29,7 @@ interface SidebarItem {
 
 const navigation: SidebarItem[] = [
   { name: "Dashboard", href: "/dashboard", icon: Home },
-  { name: "Report", href: "/dashboard/report", icon: ClipboardPlus },
+  { name: "Brief Report", href: "/dashboard/brief-report", icon: ClipboardPlus },
   { name: "Plans", href: "/dashboard/plans", icon: BarChart3 },
   {
     name: "Organization",

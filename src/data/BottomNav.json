@@ -22,6 +22,11 @@
     },
          {
       "type": "link",
+      "label": "रिपोर्ट",
+      "href": "/report.html"
+    },
+         {
+      "type": "link",
       "label": "सम्पर्क",
       "href": "/contact"
     }    ]
