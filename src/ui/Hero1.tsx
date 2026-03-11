@@ -22,10 +22,10 @@ const Hero1 = () => {
 
   // Fallback data in case API fails
   const fallbackData = {
-    households: 8390,
-    totalPopulation: 43223,
-    malePopulation: 21141,
-    femalePopulation: 22012,
+    households: 8402,
+    totalPopulation: 47125,
+    malePopulation: 24284,
+    femalePopulation: 22841,
   };
 
   const currentStats = stats || fallbackData;

@@ -22,7 +22,7 @@ const fetchMunicipalityStats = async (): Promise<MunicipalityStats> => {
     // Get() already returns the parsed JSON data, not a Response object
     const data = (await Get({ url: "/public/insight/" })) as MunicipalityStats
 
-    console.log("Municipality stats received:", data)
+    // console.log("Municipality stats received:", data)
 
     // Validate the response structure
     if (!data || typeof data !== "object") {
