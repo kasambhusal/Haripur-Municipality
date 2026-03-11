@@ -291,7 +291,7 @@ export default async function DashboardPage() {
                 <p className="text-sm font-medium text-gray-600">औसत घर आकार</p>
                 <p className="text-2xl font-bold">
                   {totalHouseholds > 0
-                    ? Math.round(totalPopulation / totalHouseholds)
+                    ? (totalPopulation / totalHouseholds).toFixed(1)
                     : 0}
                 </p>
                 <p className="text-xs text-gray-500">Average Household Size</p>
